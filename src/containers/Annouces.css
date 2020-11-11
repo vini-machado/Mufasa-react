@@ -1,0 +1,11 @@
+.boxed {
+    border: 5px solid #f4623a ;
+    background-color: aliceblue;
+    margin: 2%;
+    text-emphasis: bold;
+
+}
+.boxed h1{
+    color: black;
+    text-align: center;
+}
