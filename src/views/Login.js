@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, FormGroup, FormControl } from "react-bootstrap";
 import "../containers/Login.css";
-
+import { Link } from 'react-router-dom';
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -41,9 +41,11 @@ export default function Login() {
             type="password"
           />
         </FormGroup>
-        <Button block bsSize="large" disabled={!validateForm()} type="submit">
-          Login
-        </Button>
+      
+        
+             <Link to="Uploadpdf" className="button button-primary button-wide-mobile button-sm" >Login</Link>
+
+     
       </form>
       </div>
     </>
