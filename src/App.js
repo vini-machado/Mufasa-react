@@ -31,7 +31,7 @@ const App = () => {
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           <AppRoute exact path="/login" component={Login} />
           <AppRoute exact path="/upload-pdf" component={Uploadpdf} />
-          <AppRoute exact path="/income-tax" component={IncomeTax} />
+          <AppRoute exact path="/imposto" component={IncomeTax} />
         </Switch>
       )} />
   );
