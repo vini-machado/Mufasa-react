@@ -43,7 +43,7 @@ export default function Login() {
         </FormGroup>
       
         
-             <Link to="Uploadpdf" className="button button-primary button-wide-mobile button-sm" >Login</Link>
+             <Link to="/upload-pdf" className="button button-primary button-wide-mobile button-sm" >Login</Link>
 
      
       </form>
