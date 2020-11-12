@@ -166,7 +166,7 @@ class ImageUploadDemo extends React.Component {
                     if (COUNT === this.state.files.length) {
                         alert('Pronto! Seu imposto está sendo calculado!')
                         setTimeout(function() {
-                            window.location.href = "/income-tax";
+                            window.location.href = "/imposto";
                         }, 5000);
 
                     }
