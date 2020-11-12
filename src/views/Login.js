@@ -12,7 +12,8 @@ export default function Login() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    alert(`Email: ${email}\n Senha: ${password}`)
+    alert(`Login Bem Sucedido!`)
+    window.location.href = "/upload-pdf"
   }
 
   return (
